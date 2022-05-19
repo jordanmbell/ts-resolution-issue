@@ -4,7 +4,7 @@
 
 This repo demonstrates a resolution issue in TypeScript when using `references` and symlinks inside a monorepo.
 
-The repo requires no setup except for npm to be installed on the machine.
+To setup, run `rm -rf node_modules/typescript && npm pack typescript@{{VERSION}} && ls -l | find . -type f -name "*.tgz" |  xargs tar -C node_modules -xvzf && mv node_modules/package node_modules/typescript && find . -type f -name "*.tgz" | xargs rm` to install typescript, replacing `{{VERSION}}` with a typescript version.
 
 To see the errors, run `npx tsc -b packages/subpackage-d`. Commenting out the first error and rerunning the command will show the second error.
 
