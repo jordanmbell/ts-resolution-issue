@@ -1,0 +1,7 @@
+{
+  "name": "subpackage-a",
+  "types": "dist/types/index.d.ts",
+  "dependencies": {
+    "fake-dep": "*"
+  }
+}

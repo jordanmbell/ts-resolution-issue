@@ -1,0 +1,7 @@
+{
+  "name": "subpackage-c",
+  "types": "dist/types/index.d.ts",
+  "dependencies": {
+    "subpackage-a": "*"
+  }
+}

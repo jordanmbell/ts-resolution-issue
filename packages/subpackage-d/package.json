@@ -1,0 +1,7 @@
+{
+  "name": "subpackage-d",
+  "dependencies": {
+    "subpackage-c": "*",
+    "fake-dep": "9.1.0"
+  }
+}

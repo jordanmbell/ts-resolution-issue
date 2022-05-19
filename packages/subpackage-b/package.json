@@ -1,0 +1,6 @@
+{
+  "name": "subpackage-b",
+  "dependencies": {
+    "subpackage-a": "*"
+  }
+}
